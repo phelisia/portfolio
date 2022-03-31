@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: wheat;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: green;
+}
+
+
+
+  body{
+    background-size: cover;
+    
+    background-position: fixed;
+    background-repeat: no-repeat;
+    font-family: "Trirong", serif;
+    font-size: large;
+  }
+  table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      
+  }
+  tr, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  video{
+  
+  display: block; margin: auto; 
+  
+  
+  ;
+  }
+  body{
+    height: 10vh;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  
